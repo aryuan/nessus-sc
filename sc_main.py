@@ -86,7 +86,7 @@ class scanner(ScClient):
 
         #更新扫描任务信息
 
-        iplist ="205.252.237.14"
+        iplist ="hostip"
 
 
         values ={
@@ -199,7 +199,7 @@ class scanner(ScClient):
 
 
 if __name__ == '__main__':
-    s = scanner('42.62.102.72', 'scaner', 'J7v2sIIy1')
+    s = scanner('hostip', 'user', 'password')
     # s.getid()
     # s.ScanResultsId()
     # s.ActiveScan()
